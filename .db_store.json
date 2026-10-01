@@ -1,0 +1,317 @@
+{
+  "users": [
+    {
+      "_id": "66a100000000000000000001",
+      "name": "Alex Morgan",
+      "email": "alex@example.com",
+      "role": "customer",
+      "password": "$2b$10$ViWwna27mFG91tWAU2jAL.0sxe3AM4YuwPFF82PCBQTizQLqxMIu.",
+      "createdAt": "2026-01-15T10:00:00.000Z",
+      "updatedAt": "2026-01-15T10:00:00.000Z"
+    },
+    {
+      "_id": "66a100000000000000000002",
+      "name": "Elena Rostova",
+      "email": "admin@veloce.com",
+      "role": "admin",
+      "password": "$2b$10$ViWwna27mFG91tWAU2jAL.r4dn1R7XNMcKVjpq5aPC2zrFKx7f4x2",
+      "createdAt": "2026-01-10T08:30:00.000Z",
+      "updatedAt": "2026-01-10T08:30:00.000Z"
+    },
+    {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "role": "customer",
+      "password": "$2b$10$m0uwFp6O31t/oFGcWhvvpu1mInIHJgJQnDF8hXgLy9YTux6O0j5be",
+      "_id": "6abea6fdc32098e612c19be1",
+      "createdAt": "2026-10-01T18:31:25.984Z",
+      "updatedAt": "2026-10-01T18:31:25.984Z"
+    }
+  ],
+  "products": [
+    {
+      "_id": "66b200000000000000000001",
+      "title": "Veloce H1 Reference Wireless Headphones",
+      "slug": "veloce-h1-reference-wireless-headphones",
+      "description": "Acoustically tuned custom 45mm beryllium drivers with hybrid active noise cancellation, aptX Lossless transmission, and precision machined aluminum pivot joints.",
+      "price": 349,
+      "originalPrice": 399,
+      "category": "Audio",
+      "images": [
+        "/src/assets/images/product_matte_headphones_1790879078207.jpg"
+      ],
+      "stock": 14,
+      "rating": 4.9,
+      "numReviews": 8,
+      "specs": {
+        "Driver": "45mm Beryllium",
+        "Battery": "42 Hours with ANC",
+        "Weight": "278g",
+        "Connectivity": "Bluetooth 5.4 / USB-C Lossless"
+      },
+      "badge": "Staff Pick",
+      "isFeatured": true,
+      "createdAt": "2026-02-01T12:00:00.000Z",
+      "updatedAt": "2026-02-01T12:00:00.000Z"
+    },
+    {
+      "_id": "66b200000000000000000002",
+      "title": "Veloce K7 Anodized Custom Keyboard",
+      "slug": "veloce-k7-anodized-custom-keyboard",
+      "description": "Gasket-mounted 65% chassis carved from 6063 aerospace aluminum, paired with factory-lubed linear switches and double-shot PBT botanical profile caps.",
+      "price": 280,
+      "originalPrice": 310,
+      "category": "Hardware",
+      "images": [
+        "/src/assets/images/product_mechanical_keyboard_1790879089678.jpg"
+      ],
+      "stock": 9,
+      "rating": 4.8,
+      "numReviews": 6,
+      "specs": {
+        "Chassis": "CNC 6063 Aluminum",
+        "Mounting": "Isolated Poron Gasket",
+        "Switches": "Veloce Linear Silents (45g)",
+        "Keycaps": "Dye-sub PBT Cherry Profile"
+      },
+      "badge": "Limited Run",
+      "isFeatured": true,
+      "createdAt": "2026-02-05T14:00:00.000Z",
+      "updatedAt": "2026-02-05T14:00:00.000Z"
+    },
+    {
+      "_id": "66b200000000000000000003",
+      "title": "Veloce Chrono-T Titanium Watch",
+      "slug": "veloce-chrono-t-titanium-watch",
+      "description": "Grade-5 brushed titanium case housing an automatic column-wheel chronograph calibre, double-domed anti-reflective sapphire crystal, and vegetable-tanned bridle leather strap.",
+      "price": 460,
+      "originalPrice": 520,
+      "category": "Watches",
+      "images": [
+        "/src/assets/images/product_titanium_chronograph_1790879100478.jpg"
+      ],
+      "stock": 6,
+      "rating": 5,
+      "numReviews": 5,
+      "specs": {
+        "Case": "Grade-5 Brushed Titanium (39mm)",
+        "Movement": "Swiss Mechanical Automatic",
+        "Glass": "AR-Coated Sapphire",
+        "WaterResistance": "100m / 10 ATM"
+      },
+      "badge": "Collector Edition",
+      "isFeatured": true,
+      "createdAt": "2026-02-10T10:00:00.000Z",
+      "updatedAt": "2026-02-10T10:00:00.000Z"
+    },
+    {
+      "_id": "66b200000000000000000004",
+      "title": "Veloce Studio Reference Sound Stage",
+      "slug": "veloce-studio-reference-sound-stage",
+      "description": "Compact bi-amplified active studio acoustic monitor with ribbon tweeters and rear boundary equalizer tuning for transparent spatial depth.",
+      "price": 640,
+      "originalPrice": 699,
+      "category": "Audio",
+      "images": [
+        "/src/assets/images/hero_luxury_audio_1790879068988.jpg"
+      ],
+      "stock": 4,
+      "rating": 4.7,
+      "numReviews": 3,
+      "specs": {
+        "Amplifier": "Class-D 120W Bi-Amp",
+        "Frequency": "38Hz - 28kHz",
+        "Inputs": "XLR Balanced / Optical / USB-C",
+        "Dimensions": "280 x 180 x 210 mm"
+      },
+      "isFeatured": true,
+      "createdAt": "2026-02-15T09:00:00.000Z",
+      "updatedAt": "2026-02-15T09:00:00.000Z"
+    },
+    {
+      "_id": "66b200000000000000000005",
+      "title": "Veloce Tuscan Full-Grain Desk Blotter",
+      "slug": "veloce-tuscan-full-grain-desk-blotter",
+      "description": "Hand-finished Italian vegetable-tanned leather desk mat with burnished waxed edges, non-slip natural suede backing, and integrated brass pen groove.",
+      "price": 85,
+      "category": "Accessories",
+      "images": [
+        "/src/assets/images/product_mechanical_keyboard_1790879089678.jpg"
+      ],
+      "stock": 21,
+      "rating": 4.9,
+      "numReviews": 4,
+      "specs": {
+        "Material": "Italian Full-Grain Leather",
+        "Backing": "Natural Micro-Suede",
+        "Dimensions": "900 x 400 x 3.5 mm",
+        "Finish": "Natural Waxed Edge"
+      },
+      "isFeatured": false,
+      "createdAt": "2026-02-18T16:00:00.000Z",
+      "updatedAt": "2026-10-01T18:31:42.450Z"
+    },
+    {
+      "_id": "66b200000000000000000006",
+      "title": "Veloce Precision Billet Rotary Dial",
+      "slug": "veloce-precision-billet-rotary-dial",
+      "description": "Heavy solid brass rotary controller with stepped magnetic haptic feedback and programmable USB-C macro assignments. Currently sold out.",
+      "price": 110,
+      "category": "Hardware",
+      "images": [
+        "/src/assets/images/product_matte_headphones_1790879078207.jpg"
+      ],
+      "stock": 0,
+      "rating": 4.6,
+      "numReviews": 2,
+      "specs": {
+        "Body": "Solid Brass 240g",
+        "Encoder": "Magnetic Hall-Effect",
+        "Detents": "24 Steps per Revolution",
+        "Cable": "Braided Paracord USB-C"
+      },
+      "badge": "Sold Out",
+      "isFeatured": false,
+      "createdAt": "2026-02-20T11:00:00.000Z",
+      "updatedAt": "2026-02-20T11:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "66d400000000000000000001",
+      "orderNumber": "VEL-2026-1042",
+      "userId": "66a100000000000000000001",
+      "userEmail": "alex@example.com",
+      "items": [
+        {
+          "productId": "66b200000000000000000001",
+          "title": "Veloce H1 Reference Wireless Headphones",
+          "price": 349,
+          "quantity": 1,
+          "image": "/src/assets/images/product_matte_headphones_1790879078207.jpg"
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "Alex Morgan",
+        "address": "742 Evergreen Terrace",
+        "city": "Seattle",
+        "postalCode": "98101",
+        "country": "United States",
+        "phone": "+1 206 555 0192"
+      },
+      "paymentMethod": "card",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "brand": "Visa",
+        "last4": "4242",
+        "status": "paid",
+        "transactionId": "txn_mock_88192019"
+      },
+      "subtotal": 349,
+      "discount": 0,
+      "tax": 27.92,
+      "deliveryFee": 0,
+      "total": 376.92,
+      "orderStatus": "delivered",
+      "idempotencyKey": "idemp_seed_delivered_01",
+      "createdAt": "2026-02-10T14:30:00.000Z",
+      "updatedAt": "2026-02-14T10:00:00.000Z"
+    },
+    {
+      "orderNumber": "VEL-2026-859442",
+      "userId": "66a100000000000000000001",
+      "userEmail": "alex@example.com",
+      "items": [
+        {
+          "productId": "66b200000000000000000005",
+          "title": "Veloce Tuscan Full-Grain Desk Blotter",
+          "price": 85,
+          "quantity": 1,
+          "image": "/src/assets/images/product_mechanical_keyboard_1790879089678.jpg"
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "Alex",
+        "address": "123 St",
+        "city": "Seattle",
+        "postalCode": "98101",
+        "country": "United States",
+        "phone": "1234567890"
+      },
+      "paymentMethod": "card",
+      "paymentStatus": "paid",
+      "paymentDetails": {
+        "brand": "Visa",
+        "last4": "4242",
+        "status": "paid",
+        "transactionId": "txn_sec_1790879502450_487"
+      },
+      "subtotal": 85,
+      "discount": 0,
+      "tax": 6.8,
+      "deliveryFee": 15,
+      "total": 106.8,
+      "orderStatus": "pending",
+      "idempotencyKey": "test_idemp_999",
+      "_id": "6abea70ee0c5684e6e861843",
+      "createdAt": "2026-10-01T18:31:42.450Z",
+      "updatedAt": "2026-10-01T18:31:42.450Z"
+    }
+  ],
+  "coupons": [
+    {
+      "_id": "66c300000000000000000001",
+      "code": "WELCOME15",
+      "discountType": "percentage",
+      "discountValue": 15,
+      "minOrderAmount": 100,
+      "expiresAt": "2027-12-31T23:59:59.000Z",
+      "isActive": true,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "66c300000000000000000002",
+      "code": "FLAT50",
+      "discountType": "fixed",
+      "discountValue": 50,
+      "minOrderAmount": 300,
+      "expiresAt": "2027-12-31T23:59:59.000Z",
+      "isActive": true,
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "_id": "66c300000000000000000003",
+      "code": "EXPIRED10",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minOrderAmount": 50,
+      "expiresAt": "2025-01-01T00:00:00.000Z",
+      "isActive": false,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "66e500000000000000000001",
+      "productId": "66b200000000000000000001",
+      "userId": "66a100000000000000000001",
+      "userName": "Alex Morgan",
+      "rating": 5,
+      "title": "Exceptional noise floor and acoustic transparency",
+      "comment": "Having auditioned dozens of planar and dynamic closed-back sets, the H1 is remarkably balanced. Low-end extension is tight without boominess, and the aluminum joints exhibit zero creaking.",
+      "verifiedPurchase": true,
+      "createdAt": "2026-02-15T18:20:00.000Z"
+    },
+    {
+      "_id": "66e500000000000000000002",
+      "productId": "66b200000000000000000002",
+      "userId": "66a100000000000000000099",
+      "userName": "David Chen",
+      "rating": 5,
+      "title": "Outstanding gasket dampening",
+      "comment": "The acoustic foam sandwich and factory-lubed switches provide a deep, marbly thock right out of the box with zero metallic pinging.",
+      "verifiedPurchase": true,
+      "createdAt": "2026-02-12T11:05:00.000Z"
+    }
+  ]
+}
